@@ -215,7 +215,7 @@ Results: accuracy scores and the precision and recall scores
 ## Summary: 
 
 The balanced accuracy score is not the best measurement for an imbalanced model.
-Therefore I would recommend to use the Easy Ensemble AdaBoos classifier as it seems to predict the credit risk best.
+Therefore I would recommend to use the Easy Ensemble AdaBoost classifier as it seems to predict the credit risk best.
 It has the highest recall. Recall is the ability of the classifier to find all the positive samples, which will be the focus in our goal to find the actual high risks and in addition has the same high precision as the second ranking Balanced Random Forest Classifier.
 
 
