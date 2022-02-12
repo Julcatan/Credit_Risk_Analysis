@@ -23,8 +23,16 @@ Results: accuracy scores and the precision and recall scores
 count after oversampling - balanced
 ![image](https://user-images.githubusercontent.com/91682586/153724343-2805d91b-33dc-474b-aa59-777540eb37d1.png)
 
-   Balanced Accuracy score
-   ![image](https://user-images.githubusercontent.com/91682586/153724383-356f9c32-4a82-4ab2-86ec-7d3ef1873b1e.png)
+
+
+   - Balanced Accuracy score
+   - ![image](https://user-images.githubusercontent.com/91682586/153724383-356f9c32-4a82-4ab2-86ec-7d3ef1873b1e.png)
+
+     The balanced accuracy score for the naive oversample model is 0.6441747142552103. That means the classifier predicts correctly about 64% of the time.
+     
+     
+
+
 
    Confusion Matrix
    ![image](https://user-images.githubusercontent.com/91682586/153724436-f196bfcc-5f6e-44ee-a7a5-b5ccecb05b7c.png)
@@ -32,6 +40,18 @@ count after oversampling - balanced
    Imbalanced Classification report
    ![image](https://user-images.githubusercontent.com/91682586/153724454-29fa4bc5-7ea7-4464-82cb-50b9fe48b086.png)
 
+  Precision is the measure of how reliable a positive classification is. It shows how many of the positive class belong to the positive class,
+  The precision for the good loan applications can be determined by the ratio TP/(TP + FP)
+     
+     - The precicion for high risk is 0.01
+     - The precision for low risk is 1.00
+     - The avg/total precision is 0.99
+     
+   Recall shows how well the positive class was predicted.
+     
+      - The recall for high risk is 0.62
+      - The recall for low risk is 0.67
+      - the avg/total recall is 0.67
   
    
   
