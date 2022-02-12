@@ -200,19 +200,20 @@ Results: accuracy scores and the precision and recall scores
 
    ##### Precision
 
-     - The precicion for high risk is 
-     - The precision for low risk is 
-     - The avg/total precision is 
+     - The precicion for high risk is 0.07
+     - The precision for low risk is 1.00
+     - The avg/total precision is 0.99
      
    ##### Recall:
      
-      - The recall for high risk is 
-      - The recall for low risk is 
-      - the avg/total recall is 
+      - The recall for high risk is 0.91
+      - The recall for low risk is 0.94
+      - the avg/total recall is 0.94
  
 ---
 
+## Summary: 
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
