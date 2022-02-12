@@ -124,7 +124,7 @@ Results: accuracy scores and the precision and recall scores
 
 #### balanced accuracy score
 
-- The balanced accuracy score for the Undersampled model is: 0.5124410279963418
+- The balanced accuracy score for the ... model is: 0.5124410279963418
 ![image](https://user-images.githubusercontent.com/91682586/153724681-9cace363-123a-4d93-b765-3b024fbbac6c.png)
 
 ##### confusion matrix
@@ -153,7 +153,7 @@ Results: accuracy scores and the precision and recall scores
     
  #### balanced accuracy score
 
-- The balanced accuracy score for the Undersampled model is: 0.7844011748069183
+- The balanced accuracy score for the ... model is: 0.7844011748069183
 
 ![image](https://user-images.githubusercontent.com/91682586/153730376-535f3d82-f216-4770-a40e-0a3603fdb223.png)
 
@@ -179,10 +179,39 @@ Results: accuracy scores and the precision and recall scores
  
 ---
 
-    -
+    
  6. Easy Ensemble AdaBoost classifier
-    -
-    -
+    
+    #### balanced accuracy score
+
+- The balanced accuracy score for the ... model is: 0.9243174154247797
+
+![image](https://user-images.githubusercontent.com/91682586/153730589-c7cc482f-9c1a-40d9-8381-929d885ef90c.png)
+
+
+   ##### confusion matrix
+
+![image](https://user-images.githubusercontent.com/91682586/153730617-035e2edd-9c7f-4ca9-beb6-bcabeab0622d.png)
+
+   ##### imbalanced classification report 
+   
+![image](https://user-images.githubusercontent.com/91682586/153730623-e8653a72-8fc8-4938-bea7-d1c2d0b7483c.png)
+
+
+   ##### Precision
+
+     - The precicion for high risk is 
+     - The precision for low risk is 
+     - The avg/total precision is 
+     
+   ##### Recall:
+     
+      - The recall for high risk is 
+      - The recall for low risk is 
+      - the avg/total recall is 
+ 
+---
+
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
