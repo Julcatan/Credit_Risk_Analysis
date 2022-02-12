@@ -14,12 +14,11 @@ The following techniques have been used:
 
 The analysis will give a recommendation on whether these models should be used to predict credit risk.
 
-Results: 
+Results: accuracy scores and the precision and recall scores
 
  1. Naive Random Oversampling
    
-   
-   count before oversampling - imbalanced
+      count before oversampling - imbalanced
    ![image](https://user-images.githubusercontent.com/91682586/153724318-c0577952-a473-4ea9-90a5-d89053c637f5.png)
 count after oversampling - balanced
 ![image](https://user-images.githubusercontent.com/91682586/153724343-2805d91b-33dc-474b-aa59-777540eb37d1.png)
@@ -33,20 +32,58 @@ count after oversampling - balanced
    Imbalanced Classification report
    ![image](https://user-images.githubusercontent.com/91682586/153724454-29fa4bc5-7ea7-4464-82cb-50b9fe48b086.png)
 
+  
+   
+  
+   
+   
+   
+   
+ 2. SMOTE Oversampling
+    -![image](https://user-images.githubusercontent.com/91682586/153724493-b7e40769-3017-4087-a6ed-2ef31db03549.png)
+
+balanced accuracy score
+![image](https://user-images.githubusercontent.com/91682586/153724516-6d8bf8a1-f75b-4a5b-922c-196981b50368.png)
+
+
+confusion matrix
+![image](https://user-images.githubusercontent.com/91682586/153724536-c007d50b-eea0-43a7-9c5f-c0c48543fe13.png)
+
+
+imbalanced classification report 
+![image](https://user-images.githubusercontent.com/91682586/153724548-ca55bb18-6e79-4d28-bee9-026a30e58f3e.png)
+
    -
- 2.
+ 3. Undersampling
+    -![image](https://user-images.githubusercontent.com/91682586/153724594-01c98ec6-1e29-4546-b889-2ff2e6621e43.png)
+Balanced accuracy score
+    -![image](https://user-images.githubusercontent.com/91682586/153724603-7a5df627-da32-4390-844e-07725e0d27b8.png)
+confusion matrix
+![image](https://user-images.githubusercontent.com/91682586/153724626-63260578-c608-41fe-8f63-f1a9c85148b5.png)
+imbalanced classification report 
+![image](https://user-images.githubusercontent.com/91682586/153724636-c79580f2-9830-4ff8-b93d-6356d4f7e9f7.png)
+
+ 4. Combination (Over and Under) Sampling\
+
+![image](https://user-images.githubusercontent.com/91682586/153724666-fd98b3d2-36bf-42b1-89fe-48b43b580fb3.png)
+
+balanced accuracy score
+![image](https://user-images.githubusercontent.com/91682586/153724681-9cace363-123a-4d93-b765-3b024fbbac6c.png)
+
+confusion matrix
+![image](https://user-images.githubusercontent.com/91682586/153724701-94788919-3124-4412-8c79-8aa62c66ad7f.png)
+ 
+imbalanced classification report 
+![image](https://user-images.githubusercontent.com/91682586/153724712-dc2676fc-ba1d-4b3c-b0c8-ff1a06bc3b04.png)
+
+ 
+ -
     -
+ 5. Balanced Random Forest Classifier¶
     -
- 3.
+
     -
-    -
- 4.
-    -
-    -
- 5.
-    -
-    -
- 6.
+ 6. Easy Ensemble AdaBoost classifier
     -
     -
 
