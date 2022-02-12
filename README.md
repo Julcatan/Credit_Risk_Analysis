@@ -2,7 +2,7 @@
 
 Overview of the analysis: 
 
-This analysis trains and evaluates models to predict credit risks using the credit card credit dataset from LendingClub, a peer to peer lending services company..
+This code trains and evaluates models to predict credit risks using the credit card credit dataset from LendingClub, a peer to peer lending services company..
 
 Credit risk is an unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, this analysis employs different techniques to train and evaluate models with unbalanced classes. I used imbalanced-learn and scikit-learn libraries to build and evaluate the models using resampling.
 
@@ -16,22 +16,22 @@ The analysis will give a recommendation on whether these models should be used t
 
 Results: 
 
-  1. 
+ 1. 
+   -
+   -
+ 2.
     -
     -
-  2.
+ 3.
     -
     -
-  3.
+ 4.
     -
     -
-  4.
+ 5.
     -
     -
-  5.
-    -
-    -
-  6.
+ 6.
     -
     -
 
