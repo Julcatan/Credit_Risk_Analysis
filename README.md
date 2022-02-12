@@ -39,15 +39,17 @@ Results: accuracy scores and the precision and recall scores
   
   ![image](https://user-images.githubusercontent.com/91682586/153724454-29fa4bc5-7ea7-4464-82cb-50b9fe48b086.png)
 
-    - For our model the imbalanced classification report shows the foll
- - Precision is the measure of how reliable a positive classification is. It shows how many of the positive class belong to the positive class.
-    The precision for the good loan applications can be determined by the ratio TP/(TP + FP)
+   For our model the imbalanced classification report shows the following details:
+    
+    - Precision is the measure of how reliable a positive classification is. It shows how many of the positive class belong to the positive class.
+      The precision for the good loan applications can be determined by the ratio TP/(TP + FP)
      
      - The precicion for high risk is 0.01
      - The precision for low risk is 1.00
      - The avg/total precision is 0.99
      
-   - Recall shows how well the positive class was predicted.
+     
+     - Recall shows how well the positive class was predicted.
      
       - The recall for high risk is 0.62
       - The recall for low risk is 0.67
@@ -68,13 +70,13 @@ Results: accuracy scores and the precision and recall scores
   imbalanced classification report 
   ![image](https://user-images.githubusercontent.com/91682586/153724548-ca55bb18-6e79-4d28-bee9-026a30e58f3e.png)
 
-  Precision: 
+  ##### Precision: 
      
      - The precicion for high risk is 0.01
      - The precision for low risk is 1.00
      - The avg/total precision is 0.99
      
-   Recall:
+   ##### Recall:
      
       - The recall for high risk is 0.66
       - The recall for low risk is 0.64
