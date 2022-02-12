@@ -65,9 +65,11 @@ Results: accuracy scores and the precision and recall scores
        - That means the classifier predicts correctly about 64,8% of the time.
        
   ##### confusion matrix
+  
   ![image](https://user-images.githubusercontent.com/91682586/153724536-c007d50b-eea0-43a7-9c5f-c0c48543fe13.png)
 
-  imbalanced classification report 
+  imbalanced classification report
+  
   ![image](https://user-images.githubusercontent.com/91682586/153724548-ca55bb18-6e79-4d28-bee9-026a30e58f3e.png)
 
   ##### Precision: 
@@ -120,7 +122,7 @@ Results: accuracy scores and the precision and recall scores
 
  ## 4. Combination (Over and Under) Sampling (SMOTEENN)
 
-balanced accuracy score
+#### balanced accuracy score
 
 - The balanced accuracy score for the Undersampled model is: 0.5124410279963418
 ![image](https://user-images.githubusercontent.com/91682586/153724681-9cace363-123a-4d93-b765-3b024fbbac6c.png)
@@ -148,7 +150,34 @@ balanced accuracy score
 ---
 
  ## 5. Balanced Random Forest Classifier¶
-    -
+    
+ #### balanced accuracy score
+
+- The balanced accuracy score for the Undersampled model is: 0.7844011748069183
+
+![image](https://user-images.githubusercontent.com/91682586/153730376-535f3d82-f216-4770-a40e-0a3603fdb223.png)
+
+##### confusion matrix
+
+![image](https://user-images.githubusercontent.com/91682586/153730395-993b62c8-415a-402c-a6bc-84e3c20c31f5.png)
+
+
+##### imbalanced classification report 
+![image](https://user-images.githubusercontent.com/91682586/153730420-82439e94-58ee-4e51-9de0-83a58310f9eb.png)
+
+##### Precision
+
+     - The precicion for high risk is 0.03
+     - The precision for low risk is 1.00
+     - The avg/total precision is 0.99
+     
+   ##### Recall:
+     
+      - The recall for high risk is 0.68
+      - The recall for low risk is 0.89
+      - the avg/total recall is 0.89
+ 
+---
 
     -
  6. Easy Ensemble AdaBoost classifier
