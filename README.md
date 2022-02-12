@@ -62,13 +62,13 @@ Results: accuracy scores and the precision and recall scores
   ![image](https://user-images.githubusercontent.com/91682586/153724516-6d8bf8a1-f75b-4a5b-922c-196981b50368.png)
 
   -  The balanced accuracy score for the Smote oversampled model is 0.6482720346801714. 
-       - That means the classifier predicts correctly about 64,8% of the time.
+     
        
   ##### confusion matrix
   
   ![image](https://user-images.githubusercontent.com/91682586/153724536-c007d50b-eea0-43a7-9c5f-c0c48543fe13.png)
 
-  imbalanced classification report
+  ##### imbalanced classification report
   
   ![image](https://user-images.githubusercontent.com/91682586/153724548-ca55bb18-6e79-4d28-bee9-026a30e58f3e.png)
 
@@ -124,7 +124,7 @@ Results: accuracy scores and the precision and recall scores
 
 #### balanced accuracy score
 
-- The balanced accuracy score for the ... model is: 0.5124410279963418
+- The balanced accuracy score for the SMOTEENN model is: 0.5124410279963418
 ![image](https://user-images.githubusercontent.com/91682586/153724681-9cace363-123a-4d93-b765-3b024fbbac6c.png)
 
 ##### confusion matrix
@@ -149,11 +149,11 @@ Results: accuracy scores and the precision and recall scores
  
 ---
 
- ## 5. Balanced Random Forest Classifier¶
+ ## 5. Balanced Random Forest Classifier
     
  #### balanced accuracy score
 
-- The balanced accuracy score for the ... model is: 0.7844011748069183
+- The balanced accuracy score for the Balanced Random Forest Classifier model is: 0.7844011748069183
 
 ![image](https://user-images.githubusercontent.com/91682586/153730376-535f3d82-f216-4770-a40e-0a3603fdb223.png)
 
@@ -180,11 +180,11 @@ Results: accuracy scores and the precision and recall scores
 ---
 
     
- 6. Easy Ensemble AdaBoost classifier
+## 6. Easy Ensemble AdaBoost classifier
     
-    #### balanced accuracy score
+   #### balanced accuracy score
 
-- The balanced accuracy score for the ... model is: 0.9243174154247797
+- The balanced accuracy score using the Easy Ensemble AdaBoost classifier is: 0.9243174154247797
 
 ![image](https://user-images.githubusercontent.com/91682586/153730589-c7cc482f-9c1a-40d9-8381-929d885ef90c.png)
 
