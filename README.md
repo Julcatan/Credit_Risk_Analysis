@@ -7,10 +7,10 @@ This analysis trains and evaluates models to predict credit risks using the cred
 Credit risk is an unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, this analysis employs different techniques to train and evaluate models with unbalanced classes. I used imbalanced-learn and scikit-learn libraries to build and evaluate the models using resampling.
 
 The following techniques have been used:
-Oversampling the data using the RandomOverSampler and SMOTE algorithms, 
-Undersampling the data using the ClusterCentroids algorithm. 
-A combinatorial approach of over- and undersampling using the SMOTEENN algorithm
-BalancedRandomForestClassifier and EasyEnsembleClassifier
+ - Oversampling the data using the RandomOverSampler and SMOTE algorithms, 
+ - Undersampling the data using the ClusterCentroids algorithm. 
+ - A combinatorial approach of over- and undersampling using the SMOTEENN algorithm
+ - BalancedRandomForestClassifier and EasyEnsembleClassifier
 
 The analysis will give a recommendation on whether these models should be used to predict credit risk.
 
