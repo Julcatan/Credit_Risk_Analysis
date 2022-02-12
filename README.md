@@ -16,8 +16,23 @@ The analysis will give a recommendation on whether these models should be used t
 
 Results: 
 
- 1. 
-   -
+ 1. Naive Random Oversampling
+   
+   
+   count before oversampling - imbalanced
+   ![image](https://user-images.githubusercontent.com/91682586/153724318-c0577952-a473-4ea9-90a5-d89053c637f5.png)
+count after oversampling - balanced
+![image](https://user-images.githubusercontent.com/91682586/153724343-2805d91b-33dc-474b-aa59-777540eb37d1.png)
+
+   Balanced Accuracy score
+   ![image](https://user-images.githubusercontent.com/91682586/153724383-356f9c32-4a82-4ab2-86ec-7d3ef1873b1e.png)
+
+   Confusion Matrix
+   ![image](https://user-images.githubusercontent.com/91682586/153724436-f196bfcc-5f6e-44ee-a7a5-b5ccecb05b7c.png)
+
+   Imbalanced Classification report
+   ![image](https://user-images.githubusercontent.com/91682586/153724454-29fa4bc5-7ea7-4464-82cb-50b9fe48b086.png)
+
    -
  2.
     -
